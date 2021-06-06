@@ -1,0 +1,174 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "code-runner.runInTerminal": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+
+
+    // Vim KeyBindings 
+
+        "vim.insertModeKeyBindingsNonRecursive": 
+        [
+            {
+                "before": [":", ":"],
+                "after": ["<esc>"]
+            },
+
+            {
+                "before": ["j", "k"],
+                "after": ["<esc>"]
+            },
+
+        ],
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+
+
+        //TODO Highlight
+        "todohighlight.include": [
+
+            "**/*.cs",
+            "**/*.py",
+            "**/*.c",
+            "**/*.cpp",
+            "**/*.js",
+            "**/*.jsx",
+            "**/*.ts",
+            "**/*.tsx",
+            "**/*.html",
+            "**/*.php",
+            "**/*.css",
+            "**/*.scss"
+        ],
+        "todohighlight.keywords": [
+        
+
+        
+            {
+                "text": "NOTE:",
+                "color": "black",
+                "backgroundColor": "gold",
+                "overviewRulerColor": "grey"
+            },
+
+            {
+                "text": "Note:",
+                "color": "black",
+                "backgroundColor": "gold",
+                "overviewRulerColor": "grey"
+            },
+
+            {
+                "text": "CONCEPT:",
+                "color": "#f7fff7",
+                "backgroundColor": "#013a63",
+                "overviewRulerColor": "grey"
+            },
+
+            {
+                "text": "Concept:",
+                "color": "#f7fff7",
+                "backgroundColor": "#013a63",
+                "overviewRulerColor": "grey"
+            },
+
+            {
+                "text": "TODO:",
+                "color": "#184e77",
+                "backgroundColor": "#d9ed92",
+                "overviewRulerColor": "grey"
+            },
+            {
+                "text": "ToDo:",
+                "color": "#184e77",
+                "backgroundColor": "#d9ed92",
+                "overviewRulerColor": "grey"
+            },
+
+            {
+                "text": "REMEMBER:",
+                "color": "#f3ffbd",
+                "backgroundColor": "#ff1654",
+                "overviewRulerColor": "grey"
+            },
+            {
+                "text": "Remember:",
+                "color": "#f3ffbd",
+                "backgroundColor": "#ff1654",
+                "overviewRulerColor": "grey"
+            },
+
+            {
+                "text": "OUTPUT:",
+                "color": "#004b23",
+                "backgroundColor": "#ccff33",
+                "overviewRulerColor": "grey"
+            },
+            {
+                "text": "Output:",
+                "color": "#004b23",
+                "backgroundColor": "#ccff33",
+                "overviewRulerColor": "grey"
+            },
+
+            {
+                "text": "ERROR:",
+                "color": "#f3ffbd",
+                "backgroundColor": "#aa0000",
+                "overviewRulerColor": "grey"
+            },
+            {
+                "text": "Error:",
+                "color": "#f3ffbd",
+                "backgroundColor": "#aa0000",
+                "overviewRulerColor": "grey"
+            },
+
+            {
+                "text": "INPUT:",
+                "color": "#ebebeb",
+                "backgroundColor": "#ff7700",
+                "overviewRulerColor": "grey"
+            },
+            {
+                "text": "Input:",
+                "color": "#ebebeb",
+                "backgroundColor": "#ff7700",
+                "overviewRulerColor": "grey"
+            },
+            {
+                "text": "DONE",
+                "color": "#f3ffbd",
+                "backgroundColor": "#ff1654",
+                "overviewRulerColor": "grey"
+            },
+
+        ],
+        "tabnine.experimentalAutoImports": true,
+        "editor.formatOnSave": true,
+        "window.zoomLevel": 1,
+        "workbench.colorTheme": "Andromeda",
+        "workbench.statusBar.visible": true,
+
+
+        "emmet.includeLanguages": {
+            "javascript":"javascriptreact"
+        },
+        "git.enableSmartCommit": true,
+
+}
+

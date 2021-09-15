@@ -3,19 +3,15 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.languageServer": "Pylance",
     "kite.showWelcomeNotificationOnStartup": false,
-    "code-runner.runInTerminal": true,
     "workbench.iconTheme": "material-icon-theme",
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "C_Cpp.updateChannel": "Insiders",
     "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
 
 
     // Vim KeyBindings 
@@ -151,7 +147,7 @@
                 "overviewRulerColor": "grey"
             },
             {
-                "text": "DONE",
+                "text": "Solution:",
                 "color": "#f3ffbd",
                 "backgroundColor": "#ff1654",
                 "overviewRulerColor": "grey"
@@ -159,8 +155,6 @@
 
         ],
         "tabnine.experimentalAutoImports": true,
-        "editor.formatOnSave": true,
-        "window.zoomLevel": 1,
         "workbench.colorTheme": "Andromeda",
         "workbench.statusBar.visible": true,
 
@@ -169,6 +163,34 @@
             "javascript":"javascriptreact"
         },
         "git.enableSmartCommit": true,
+        "explorer.confirmDelete": false,
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false,
+        "editor.lineNumbers": "on",
+        "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+        "editor.wordWrap": "off",
+        "javascript.format.semicolons": "insert",
+        "editor.formatOnSave": true,
+        "notebook.cellToolbarLocation": {
+            "default": "right",
+            "jupyter-notebook": "left"
+        },
+        "files.exclude": {
+            "**/.classpath": true,
+            "**/.project": true,
+            "**/.settings": true,
+            "**/.factorypath": true
+        },
+        "code-runner.runInTerminal": true,
+        "terminal.integrated.confirmOnExit": "always",
+        "C_Cpp.vcFormat.space.withinControlFlowStatementParentheses": true,
+        "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+        "files.insertFinalNewline": true,
+        "terminal.external.linuxExec": "zsh",
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "terminal.integrated.rightClickBehavior": "paste",
+        "vsintellicode.modelDownloadPath": "",
+        "python.linting.enabled": true
+
 
 }
-
